@@ -1,0 +1,185 @@
+.main-header {
+	font-size: 100px;
+    font-weight: 100;
+    text-align: center;
+    color: rgba(175, 47, 47, 0.15);
+	text-align: center;
+	line-height: 100px;
+	padding: 20px 0;
+}
+
+.todoapp {
+	margin-top: 0px;
+}
+
+.m0 {
+	margin: 0px !important;
+}
+.ml0 {
+	margin-left: 0px !important;
+}
+.mt0 {
+	margin-top: 0px !important;
+}
+.mr0 {
+	margin-right: 0px !important;
+}
+.mb0 {
+	margin-bottom: 0px !important;
+}
+
+.m5 {
+	margin: 5px !important;
+}
+.ml5 {
+	margin-left: 5px !important;
+}
+.mt5 {
+	margin-top: 5px !important;
+}
+.mr5 {
+	margin-right: 5px !important;
+}
+.mb5 {
+	margin-bottom: 5px !important;
+}
+
+.m10 {
+	margin: 10px !important;
+}
+.ml10 {
+	margin-left: 10px !important;
+}
+.mt10 {
+	margin-top: 10px !important;
+}
+.mr10 {
+	margin-right: 10px !important;
+}
+.mb10 {
+	margin-bottom: 10px !important;
+}
+
+.m15 {
+	margin: 15px !important;
+}
+.ml15 {
+	margin-left: 15px !important;
+}
+.mt15 {
+	margin-top: 15px !important;
+}
+.mr15 {
+	margin-right: 15px !important;
+}
+.mb15 {
+	margin-bottom: 15px !important;
+}
+
+.m20 {
+	margin: 20px !important;
+}
+.ml20 {
+	margin-left: 20px !important;
+}
+.mt20 {
+	margin-top: 20px !important;
+}
+.mr20 {
+	margin-right: 20px !important;
+}
+.mb20 {
+	margin-bottom: 20px !important;
+}
+
+.form-label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.form-label:hover {
+	cursor: pointer;
+}
+
+.form-input {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #666666;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #c1a2a2;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+.btn {
+	display: inline-block;
+    padding: 6px 15px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+	background-color: #a75959;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.btn-block {
+	display: block;
+}
+
+.btn:focus, .btn:hover {
+	background-color: #824a4a;
+}
+
+.btn:active {
+	background-color: #824a4a;
+	box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+}
+
+.box {
+	background-color: #ffffff;
+	box-shadow:	1px 2px 3px rgba(0,0,0,0.1);
+	padding: 20px;
+	border-radius: 2px;
+}
+
+.todo-name {
+	border-bottom: 1px dotted #dedede;
+}
+
+.todo-name:hover {
+	cursor: text;
+}
+
+.todo-button {
+	display: block;
+	padding: 10px;
+	background-color: #ead7d7;
+	text-decoration: none;
+	color: #999;
+	border-radius: 2px;
+}
+
+.todo-button:hover {
+	background-color: #dac3c3;
+}
