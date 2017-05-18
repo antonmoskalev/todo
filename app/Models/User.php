@@ -11,6 +11,7 @@ use Illuminate\Contracts\Auth\Access\Authorizable as AuthorizableContract;
  * @property integer $id
  * @property string $email
  * @property string $password_hash
+ * @property string $remember_token
  * @property boolean $confirmed
  * @property string $name
  * @property \Carbon\Carbon $created_at
@@ -31,6 +32,10 @@ class User extends Model implements AuthenticatableContract, AuthorizableContrac
 		],
 		'password_hash' => [
 			'type' => self::DATA_TYPE_STRING,
+		],
+		'remember_token' => [
+			'type' => self::DATA_TYPE_STRING,
+			'nullable' => true,
 		],
 		'confirmed' => [
 			'type' => self::DATA_TYPE_BOOLEAN,
